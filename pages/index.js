@@ -31,12 +31,6 @@ export default function Home() {
     <>
       <AppBar position="static" color="transparent" className="Navbar">
         <div className="content-Navbar">
-          <img 
-            src={studentInfo?.data?.school?.logo} 
-            alt="logo" 
-            width="70" 
-            height="70"
-          />
           <h1 className="title">{studentInfo?.data?.school?.name}</h1>
         </div>  
         <Toolbar/>
