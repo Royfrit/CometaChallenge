@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { PAID, DUE, OUTSTANDING } from '../constante'
-import {formatDate} from '../util/util'
+import { PAID, DUE, OUTSTANDING } from '../api/constante'
+import {formatDate} from '../api/util/util'
 import Card from '@mui/material/Card';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
