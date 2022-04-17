@@ -1,0 +1,142 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #F7F7F7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+ p {
+   margin: 0
+ }
+ 
+.Navbar {
+  background: #fff;
+  height: 85px;
+}
+.content-Navbar {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 0 0;
+}
+.Navbar .title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+}
+.content {
+  width: 24%;
+  position: relative;
+  margin: auto;
+}
+
+.content-button {
+  position: absolute;
+  left: 80px;
+  bottom: 90px;
+}
+
+.None {
+  display: none;
+} 
+
+.content-button button { 
+  border-radius: 20px;
+  width: 350px;
+  height: 60px;
+  background: #333;
+}
+
+.Card {
+  margin: 40px auto;
+}
+
+.Card-Balance .title-Primary {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.Card-Balance .title-Secundary {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 0 0;
+  color: #333;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Card-paid {
+  display: block;
+}
+.Card-paid .title-Primary {
+  font-size: 20px;
+  margin: 0;
+}
+.Card-paid .title-Secundary  {
+  font-weight: 300;
+}
+
+.Card-paid .title-details  {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 25px 0px;
+  line-height: 1.1;
+}
+
+.Card-slope .title-details{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 25px 0;
+}
+
+.Card-slope .title-details-interes {
+  display: flex;
+  text-align: end;
+}
+
+.Card-future .title-details{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 25px 0;
+}
+
+.Card-future .title-details-interes {
+  display: flex;
+  text-align: end;
+  margin: -10px 0 0 0;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  
+  .content {
+    width: 90%;
+    position: relative;
+    margin: auto;
+  }
+
+  .content-button {
+    position: absolute;
+    left: 15px;
+    bottom: 90px;
+  }
+  .Navbar .title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 22px 0 0 0;
+  }
+}
+
